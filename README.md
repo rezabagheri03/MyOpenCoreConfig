@@ -10,35 +10,10 @@ Everything is preconfigured and validated for OpenCore 0.8.8.
 
 ## Table of Contents
 
-- [Folder Structure](#folder-structure)  
 - [Installation](#installation)  
 - [Configuration Highlights](#configuration-highlights)  
 - [Boot Entries](#boot-entries)  
 - [Troubleshooting](#troubleshooting)  
-
-## Folder Structure
-EFI/
-└── OC/
-    ├── ACPI/                     # SSDTs and patches
-    ├── Drivers/                  # Required UEFI drivers
-    │   ├── OpenRuntime.efi
-    │   ├── OpenCanopy.efi
-    │   ├── ResetNvramEntry.efi
-    │   ├── ext4_x64.efi          # ext4 FS support for Linux
-    │   └── OpenLinuxBoot.efi     # Auto-detect Linux kernel loader
-    ├── Kexts/                    # macOS kernel extensions
-    │   ├── Lilu.kext
-    │   ├── VirtualSMC.kext
-    │   └── WhateverGreen.kext
-    ├── Resources/                # OpenCore UI assets
-    │   └── Image/
-    │       └── Acidanthera/
-    │           └── GoldenGate/
-    │               ├── *.icns     # Built-in icons
-    │               └── background.png
-    ├── Tools/                    # Optional UEFI tools
-    ├── config.plist              # OpenCore configuration
-    └── version.plist             # Tracks OpenCore build version
 
 
 ## Installation
